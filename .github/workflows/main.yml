@@ -23,7 +23,7 @@ jobs:
       - name: execute py script # run p.py
         env:
           SOME_SECRET: ${{ secrets.SOME_SECRET }}
-        run: python rio.py
+        run: python TYRO.py
           
       - name: commit files
         run: |
